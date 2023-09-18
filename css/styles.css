@@ -1,7 +1,9 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
 }
 
 ul,
@@ -17,9 +19,8 @@ a {
   color: #434455;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -29,58 +30,55 @@ a {
   color: #4d5ae5;
 }
 
-.nav-menu {
+.nav-menu a {
   color: #2e2f42;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-address {
+address a {
+  color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 h1 {
-  /* color:#fff; */
+  color: #fff;
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 button {
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 h3 {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 p {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -88,9 +86,8 @@ h2 {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -104,23 +101,35 @@ h2 {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 footer p {
   color: #f4f4fd;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
 }
 
-.nav-menu:active,
-address:active {
+.nav-menu a:active,
+.nav-menu a:focus,
+address a:active,
+address a:focus {
   color: #404bbf;
+}
+
+button:hover,
+button:focus {
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero,
+footer {
+  background-color: #2e2f42;
+}
+
+.our-team {
+  background-color: #f4f4fd;
 }
