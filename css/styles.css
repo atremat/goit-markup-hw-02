@@ -62,7 +62,7 @@ a {
   letter-spacing: 1.12px;
 }
 
-.features-h2 {
+.main-h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -72,7 +72,7 @@ a {
   text-transform: capitalize;
 }
 
-.features-h3 {
+.main-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -80,14 +80,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.features-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-  letter-spacing: 0.32px;
-}
-
-p {
+.main-paragraph {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -133,7 +126,7 @@ p {
   background-color: #2e2f42;
 }
 
-.footer-class .features-paragraph {
+.footer-class .main-paragraph {
   color: #f4f4fd;
 }
 
