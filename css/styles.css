@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #434455;
@@ -15,7 +15,8 @@ a {
   text-decoration: none;
 }
 
-address a {
+.addresses .addresses-link {
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -28,17 +29,16 @@ address a {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  color: #434455;
+  color: #4d5ae5;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.logo-header-blue,
-.logo-footer-blue {
-  color: #4d5ae5;
+.logo-header-studio {
+  color: #2e2f42;
 }
 
-.nav-menu a {
+.nav-menu .nav-menu-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -46,14 +46,14 @@ address a {
   letter-spacing: 0.32px;
 }
 
-.nav-menu a:active,
-.nav-menu a:focus,
-address a:active,
-address a:focus {
+.nav-menu .nav-menu-link:hover,
+.nav-menu .nav-menu-link:focus,
+.addresses .addresses-link:hover,
+.addresses .addresses-link:focus {
   color: #404bbf;
 }
 
-h1 {
+.hero-h1 {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -62,7 +62,7 @@ h1 {
   letter-spacing: 1.12px;
 }
 
-h2 {
+.features-h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -72,12 +72,19 @@ h2 {
   text-transform: capitalize;
 }
 
-h3 {
+.features-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.4px;
+}
+
+.features-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.32px;
 }
 
 p {
@@ -87,12 +94,13 @@ p {
   letter-spacing: 0.32px;
 }
 
-.our-team-list h3,
-.our-team-list p {
+.our-team-item {
+  background-color: #ffffff;
   text-align: center;
 }
 
-button {
+.hero-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -102,27 +110,30 @@ button {
   background-color: #4d5ae5;
 }
 
-button:hover,
-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
 .logo-footer {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  color: #f4f4fd;
+  color: #4d5ae5;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.logo-footer-studio {
+  color: #f4f4fd;
+}
 
 .hero,
-footer {
+.footer-class {
   background-color: #2e2f42;
 }
 
-footer p {
+.footer-class .features-paragraph {
   color: #f4f4fd;
 }
 
